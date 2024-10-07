@@ -8,3 +8,12 @@ document.querySelectorAll('nav a').forEach(anchor =>{
     });
 });
     
+// Altera a cor de fundo da página ao clicar na foto
+const profilePhoto = document.querySelector('.profile-photo');
+
+profilePhoto.addEventListener('click', () => {
+    document.body.style.backgroundColor = '#dee7ef'; // Muda a cor de fundo
+    setTimeout(() => {
+        document.body.style.backgroundColor = '#b0bbc4'; // Volta à cor original após 500ms
+    }, 500);
+});
