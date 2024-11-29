@@ -90,6 +90,8 @@ h1 {
     padding: 50px 20px;
     background-color: #000000;
     text-align: center;
+    position: relative;
+
 }
 #contact form input, #contact form textarea {
     width: 100%;
